@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/ico-token/static/css/main.75181614.chunk.css",
+    "main.js": "/ico-token/static/js/main.c42d4746.chunk.js",
+    "main.js.map": "/ico-token/static/js/main.c42d4746.chunk.js.map",
+    "runtime-main.js": "/ico-token/static/js/runtime-main.4ba7cb56.js",
+    "runtime-main.js.map": "/ico-token/static/js/runtime-main.4ba7cb56.js.map",
+    "static/css/2.f0803763.chunk.css": "/ico-token/static/css/2.f0803763.chunk.css",
+    "static/js/2.a7c37e0d.chunk.js": "/ico-token/static/js/2.a7c37e0d.chunk.js",
+    "static/js/2.a7c37e0d.chunk.js.map": "/ico-token/static/js/2.a7c37e0d.chunk.js.map",
+    "index.html": "/ico-token/index.html",
+    "static/css/2.f0803763.chunk.css.map": "/ico-token/static/css/2.f0803763.chunk.css.map",
+    "static/css/main.75181614.chunk.css.map": "/ico-token/static/css/main.75181614.chunk.css.map",
+    "static/js/2.a7c37e0d.chunk.js.LICENSE.txt": "/ico-token/static/js/2.a7c37e0d.chunk.js.LICENSE.txt",
+    "static/media/1.1.1006782b.png": "/ico-token/static/media/1.1.1006782b.png",
+    "static/media/1.e1d1325b.png": "/ico-token/static/media/1.e1d1325b.png",
+    "static/media/2.080b0579.png": "/ico-token/static/media/2.080b0579.png",
+    "static/media/chart2.4376b786.png": "/ico-token/static/media/chart2.4376b786.png",
+    "static/media/p5.2603a17c.png": "/ico-token/static/media/p5.2603a17c.png",
+    "static/media/ring2.e41f6d77.png": "/ico-token/static/media/ring2.e41f6d77.png",
+    "static/media/slick-theme.css": "/ico-token/static/media/slick.c94f7671.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4ba7cb56.js",
+    "static/css/2.f0803763.chunk.css",
+    "static/js/2.a7c37e0d.chunk.js",
+    "static/css/main.75181614.chunk.css",
+    "static/js/main.c42d4746.chunk.js"
+  ]
+}
