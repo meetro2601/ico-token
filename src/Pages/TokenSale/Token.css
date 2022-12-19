@@ -1,0 +1,154 @@
+.mainTitle {
+  color: #fa3966;
+}
+/* ----------------- CSS FOR TOKEN COMPONENT --------------------- */
+.tokImg {
+  max-height: 350px;
+}
+.mining {
+  border: 1px dashed white;
+  border-top: none;
+  border-right: none;
+  border-radius: 0 0 0 20px;
+}
+.money {
+  border: 1px dashed white;
+  border-top: none;
+  border-left: none;
+  border-radius: 0 0px 20px 0;
+}
+.security {
+  border: 1px dashed white;
+  border-top: none;
+  border-right: none;
+  border-radius: 0px 0 0 20px;
+}
+.indi {
+  position: relative;
+  top: 35px;
+  left: -66.5px;
+  width: 12px;
+  height: 12px;
+  border: 2px solid #fa3966;
+  border-radius: 50%;
+  background-color: white;
+  z-index: 6;
+}
+
+/* ---------- CSS FOR TOKEN SALE COMPONENT ---------------------- */
+.sale-timer > ul > li > span {
+  background-color: transparent;
+  font-size: 3em;
+  font-weight: 600;
+  color: white;
+  padding: 10px 15px;
+}
+.sale-timer > ul > li > p {
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 0;
+}
+.sale-info {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  list-style: none;
+}
+.sale-info > li > p {
+  margin: 0;
+  padding: 0;
+}
+.sale-info > li {
+  width: 250px;
+  margin: 5px 50px 5px 0px;
+}
+.sale-info > li::before {
+  content: "\2014";
+  display: inline-block;
+  color: white;
+  margin-left: -2em;
+  position: relative;
+  top: 20px;
+}
+.sale-info > li:hover::before {
+  color:#fa3966;
+}
+
+/* ------------- CSS FOR DISTRIBUTION CHART --------------------- */
+
+.label {
+  display: inline-block;
+  padding: 0px 10px;
+}
+.label > h3 {
+  color: #47cbff;
+}
+.arrow {
+  background-color: aqua;
+  display: inline-block;
+  position: relative;
+  bottom: 35px;
+  width: 105px;
+  height: 1px;
+}
+.chartTipOne {
+  width: 240px;
+  position: absolute;
+  top: 23px;
+  left: 120px;
+  margin: auto;
+  text-align: end;
+}
+.chartTipTwo {
+  width: 220px;
+  position: absolute;
+  margin: auto;
+  top: 155px;
+  left: 58px;
+  text-align: end;
+}
+.chartTipThree {
+  width: 290px;
+  position: absolute;
+  margin: auto;
+  top: 313px;
+  left: 58px;
+  text-align: end;
+}
+.chartTipFour {
+  width: 350px;
+  position: absolute;
+  margin: auto;
+  top: 165px;
+  left:635px;
+  text-align: start;
+}
+.chartTipFive {
+  width: 290px;
+  position:absolute;
+  margin: auto;
+  top: 325px;
+  left:550px;
+  text-align: start;
+}
+.labelList {
+  list-style: none;
+}
+.labelList > li {
+  padding: 7px 0;
+}
+.labelList > li > p {
+  padding: 0;
+  margin: 0;
+}
+.labelList > li > h3 {
+  color: #47cbff;
+}
+/* ------------ CSS FOR PROCEEDS CHART --------------- */
+.chart2List{
+  list-style: none;
+}
+.chart2List>li{
+  padding: 20px 0;
+  margin: 10px;
+}

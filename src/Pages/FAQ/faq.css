@@ -1,0 +1,21 @@
+.accordion-item{
+    background-color: transparent !important;
+    border-radius: 10px !important;
+}
+.accordion-button{
+    background-color:  #fa3966 !important;
+    color: white !important;
+    font-size: 1.1rem !important;
+    padding: 20px 40px !important;
+    border-radius: 10px !important;
+    box-shadow: none !important;
+}
+.accordion-button:not(.collapsed){
+    background-color:white !important;
+    color: #fa3966 !important
+}
+.accordion-body{
+    padding-top: 30px !important;
+    padding-left: 40px !important;
+    text-align: justify;
+}

@@ -1,0 +1,11 @@
+.abtHeader{
+    color: #fa3966
+}
+.infopaper{
+    background-color: transparent !important;
+    color: white !important;
+    border: 2px solid white;
+    border-radius: 12px !important;
+    padding: 24px 40px;
+    height: 100%;
+}

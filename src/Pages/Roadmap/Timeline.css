@@ -1,0 +1,88 @@
+.yearSlider>.slick-list{
+    width: 123%;
+    padding: 0 !important;
+}
+.yearSlider{
+    width: 425px;
+    overflow: hidden;
+   margin: auto;
+   background-color: #fa3966;
+   border-radius: 15px;
+}
+.yearDiv > p{
+    margin: 0;
+}
+.yearDiv{
+    background-color: transparent;
+    padding: 25px;
+}
+.yearSlider .slick-current{
+    background-color: rgb(255, 255, 255) !important;
+    border-radius: 5px;
+    color:blue
+}
+.eventslide::before{
+    background-color: white;
+    width:120%;
+    height: 2px;
+    position: absolute;
+    left: 0px;
+    content: '';
+    z-index: -1;
+}
+.eventslide{
+    display: flex !important;
+    flex-direction: row;
+    padding: 30px 0px;
+    padding-left: 100px;
+    outline: none !important;
+}
+.event::before{
+    content: '';
+    background-color: white;
+    width: 1px;
+    height: 55px;
+    position: absolute;
+    top:30px;
+    transition: 0.5s;
+}
+.event:hover::before{
+    transform: scaleY(0.5);
+}
+
+.event{
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    text-align: start;
+    margin: 10px 12px
+}
+.clr{
+    background-color: #ffc430;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.clr::before{
+    background-color: #3331382f;
+    position:absolute;
+    content: '';
+    top:-7.5px;
+    left: -7.5px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+.event:hover .clr::before{
+    position:absolute;
+    top:15px;
+    left: 15px;
+    transform: scale(2);
+    opacity: 0;
+}
+.e1, .e2, .e3, .e4, .e5 {
+    position: absolute;
+    top:-25px;
+    left: -10px;
+}
