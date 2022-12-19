@@ -2,6 +2,7 @@
   "name": "icotoken",
   "version": "0.1.0",
   "private": true,
+  "homepage": " https://meetro2601.github.io/ico-token",
   "dependencies": {
     "@material-ui/core": "^4.12.3",
     "@mui/material": "^5.0.6",
@@ -23,6 +24,8 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -45,5 +48,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
